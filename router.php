@@ -4,9 +4,6 @@ $page = "";
 $routes = [
     '/' => 'controllers/home/home.controller.php',
     '/trainers' => 'controllers/trainers/trainer.controller.php',
-    '/companies' => 'controllers/companies/company.controller.php',
-    '/calendars' => 'controllers/calendars/calendar.controller.php',
-    '/profiles' => 'controllers/profiles/profile.controller.php',
 ];
 
 if (array_key_exists($uri, $routes)) {
